@@ -1,7 +1,8 @@
 //• Kategori nilai huruf (A/B+/B/C+/C/D/E) mengikuti skala penilaian resmi kampus sehingga
-//TIDAK diubah.
-//• Pada Pertanyaan no. 3, ganti angka "19" pada soal dengan 15 + (P mod 10) → lalu jawab
-//ulang pertanyaannya memakai angka Anda sendiri
+//  TIDAK diubah.
+//• Pada Pertanyaan no. 3, ganti angka "19" pada soal dengan 15 + (24 mod 10) → lalu jawab
+//  ulang pertanyaannya memakai angka Anda sendiri
+//  P =19
 package pertemuan9;
 
 import java.util.Scanner;
@@ -24,6 +25,7 @@ public class SiakadWhile24 {
 
             if (nilai > 80 && nilai <= 100) {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah A");
+                System.out.println("Bagus, pertahanan nilainya!");
             } else if (nilai > 73 && nilai <= 80) {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah B+");
             } else if (nilai > 65 && nilai <= 73) {
